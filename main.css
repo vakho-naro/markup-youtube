@@ -204,7 +204,7 @@
 }
 
 
-
+/* main-content */
 
 .main__content {
     width: 85%;
@@ -213,8 +213,6 @@
     padding: 0 25px;
     background-color: #f9f9f9;
 }
-
-
 
 .main__content__video {    
     width: 100%;
@@ -251,29 +249,33 @@
     cursor: pointer;
 }
 
-iframe {
-    border: none;
+.main__content__video__footer {
+    display: flex;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 14px 20px 0 0 ;
     cursor: pointer;
-    width: 100%;
-    height: 87%;
 }
 
 .video-title {
     width: 100%;
-    height: 32px;
-    margin: 8px 0 14px 0;
-    font-size: 16px;
+    margin:14px 0;
+    font-size: 15px;
     font-weight: 600;
-    color: #646262;
+    color: #0d0d0d;
 }
 
 .video-autor {
     font-size: 14px;
-    color: #90949c;
+    color: #606060;
     margin: 3px 0;
 }
 
 .views-date {
     font-size: 14px;
-    color: #90949c;
+    color: #606060;
 }
